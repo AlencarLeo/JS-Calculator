@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div class="calculadora">
+        <p class="resultado"></p>
+        
+        <button class="botao b1" onclick="inserir('1')">1</button>
+        <button class="botao b2" onclick="inserir('2')">2</button>
+        <button class="botao b3" onclick="inserir('3')">3</button>
+        <button class="botao b4" onclick="inserir('4')">4</button>
+        <button class="botao b5" onclick="inserir('5')">5</button>
+        <button class="botao b6" onclick="inserir('6')">6</button>
+        <button class="botao b7" onclick="inserir('7')">7</button>
+        <button class="botao b8" onclick="inserir('8')">8</button>
+        <button class="botao b9" onclick="inserir('9')">9</button>
+        <button class="botao b0" onclick="inserir('0')">0</button>
+        <button class="botao c" onclick="limpar()">C</button>
+        <button class="botao cl" onclick="back()"><</button>
+        <button class="botao mais" onclick="inserir('+')">+</button>
+        <button class="botao menos" onclick="inserir('-')">-</button>
+        <button class="botao vezes" onclick="inserir('*')">x</button>
+        <button class="botao dividido" onclick="inserir('/')">/</button>
+        <button class="botao igual" onclick="calcResult()">=</button>
+        <button class="botao ponto" onclick="inserir('.')">.</button>
+
+    
+    </div>
+    
+<script src="js/script.js"></script>
+</body>
+</html>

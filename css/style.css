@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+}
+
+body{
+    background: linear-gradient(-135deg, #d31027,#ea38a3);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+.calculadora{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    display: grid;
+    grid-template-areas: 
+    'resp resp resp  resp'
+    'c  cl dividido vezes'
+    'b1 b2 b3        mais'
+    'b4 b5 b6       menos'
+    'b7 b8 b9       igual'
+    'b0 b0 ponto    igual'
+    ;
+}
+
+
+.calculadora .resultado{
+    grid-area: resp;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: right;
+    color: #fff;
+}
+
+.calculadora .botao{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: none;
+    background-color: #333;
+    color: #f9f9f9;
+    font-size: 40px;
+}
+
+.calculadora .botao:hover{
+    cursor: pointer;
+    background-color: #111;
+}
+
+.calculadora .b1{
+    grid-area: b1;
+}
+.calculadora .b2{
+    grid-area: b2;
+}
+.calculadora .b3{
+    grid-area: b3;
+}
+.calculadora .b4{
+    grid-area: b4;
+}
+.calculadora .b5{
+    grid-area: b5;
+}
+.calculadora .b6{
+    grid-area: b6;
+}
+.calculadora .b7{
+    grid-area: b7;
+}
+.calculadora .b8{
+    grid-area: b8;
+}
+.calculadora .b9{
+    grid-area: b9;
+}
+.calculadora .b0{
+    grid-area: b0;
+    width: 203px;
+    border-radius: 0 0 0 10px;
+}
+.calculadora .c{
+    grid-area: c;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px 0 0 0;
+}
+.calculadora .cl{
+    grid-area: cl;
+    background-color: #fff;
+    color: #000;
+}
+
+.calculadora .cl:hover, 
+.calculadora .c:hover{
+    background-color: #aaa;
+}
+
+.calculadora .mais{
+    grid-area: mais;
+}
+.calculadora .menos{
+    grid-area: menos;
+}
+.calculadora .vezes{
+    grid-area: vezes;
+    border-radius: 0 10px 0 0;
+}
+.calculadora .dividido{
+    grid-area: dividido;
+}
+.calculadora .igual{
+    grid-area: igual;
+    height: 203px;
+    border-radius: 0 0 10px 0;
+    background-color: #ee8e44;
+}
+.calculadora .igual:hover{
+    background-color: #ff8f66;
+}
+.calculadora .ponto{
+    grid-area: ponto;
+}
