@@ -8,9 +8,10 @@
 }
 
 body{
-    background: linear-gradient(135deg, #8a5b37,#ff7b00);
+    background: linear-gradient(135deg, #ff7b00,#FF993B);
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 40px;
 }
 
 h1{
@@ -18,7 +19,6 @@ h1{
     color: #f7f7f7;
     font-size: 60px;
     text-transform: uppercase;
-    margin: 40px;
     text-shadow: 1px 1px 5px black;
     font-family:cursive, Aral, sans-serif;
 }
