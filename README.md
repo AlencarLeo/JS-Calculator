@@ -1,5 +1,5 @@
-<h1 align="center">CALCULATOR JS</h1>
-<p align="center">A calculator coded with JS</p>
+<h1 align="center">JS CALCULATOR</h1>
+<p align="center">Calculator coded with JS</p>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/AlencarLeo/calculadora?style=for-the-badge">
